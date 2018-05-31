@@ -1,0 +1,6 @@
+<code>
+RPI Zero 1.3
+
+sudo apt-get install xorg
+xinit firefox $* -- :0 vt$XDG_VTNR
+</code>
